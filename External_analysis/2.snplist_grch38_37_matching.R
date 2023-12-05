@@ -1,4 +1,4 @@
-
+## To match GRCH38 which is used in the haps file from GRCH37 which is generally used in summary statistics, I generated GRCH38 and GRCH37 position matching files
 aa=fread("/pl/active/KellerLab/Yongkang/PGS_web/ldsc/Insomnia/sumstat_pheno_all.txt",header=T,stringsAsFactors=FALSE)
 aa=as.data.frame(aa)
 chr=1
